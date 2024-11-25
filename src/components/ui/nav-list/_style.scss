@@ -1,0 +1,41 @@
+.nav-router-link{
+    transition: all 0.2s linear;
+    padding: 4px 11px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    h3{
+        color: #9197B3;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .arrow-right{
+        position: absolute;
+        right: 10px;
+        top: 20px;
+
+    }
+}
+
+.router-link-exact-active{
+    background: #5932EA;
+    border-radius: 8px;
+    
+    h3{
+        color: white;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    h3{
+        display: none;
+    }
+
+    .arrow-right{
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.activeToggle{
+    background: #16C09861;
+    color: #008767;
+    border: 1px solid #00B087;
+
+    &:hover{
+        background: #16C09891;
+        color: #008767;
+        border: 1px solid #00B087;
+    }
+}
+
+.inactiveToggle{
+    background: #FFC5C5;
+    color: #DF0404;
+    border: 1px solid #DF0404;
+
+    &:hover{
+        background: #FFC5C591;
+        color: #DF0404;
+        border: 1px solid #DF0404;
+    }
+}
+
+button{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -1%;
+    width: 85px;
+}
+
+.ant-table-row{
+    background: black !important;
+}
+
+.table {
+    tr{
+        color: red !important;
+        td{
+            color: red !important;
+        }
+    }
+    background: black !important;
+}

@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    div{
+        position: relative;
+        width: 100%;
+        max-width: 216px;
+        
+        i{
+            position: absolute;
+            top: 8px;
+            left: 4px;
+            font-size: 27px;
+
+        }
+
+        input{
+            width: 100%;
+            padding: 10px 30px;
+            background: white;
+            border-radius: 12px;
+            border: none;
+            font-size: 14px;
+            outline: none;
+        }
+    }
+}
